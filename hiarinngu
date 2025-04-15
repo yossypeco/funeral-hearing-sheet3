@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>葬儀社の経営課題 マインドマップ</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Helvetica Neue', sans-serif; line-height: 1.6; padding: 20px; background: #f9f9f9; }
+    h1 { font-size: 24px; color: #333; }
+    h2 { background-color: #ff914d33; padding: 10px; border-left: 5px solid #ff914d; color: #333; margin-top: 30px; }
+    .middle-title { font-size: 18px; font-weight: bold; margin: 10px 0; cursor: pointer; padding-left: 10px; position: relative; color: #333; }
+    .middle-title::before { content: "\f0da"; font-family: 'Font Awesome 6 Free'; font-weight: 900; margin-right: 8px; }
+    .sub-questions { display: none; margin-left: 20px; background: #fff; padding: 10px; border-left: 3px solid #ccc; border-radius: 5px; }
+    .sub-questions li { margin: 4px 0; list-style-type: disc; }
+  </style>
+</head>
+<body>
+  <h1><i class="fas fa-sitemap"></i> 葬儀社の経営課題 マインドマップ</h1>
+
+  <h2>1. 市場・顧客との関係</h2>
+  <div class="middle-title" onclick="toggle(this)">1.1 集客・広告手法</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">現在の主な集客方法は何ですか？</li>
+    <li style="list-style-type: none;">インターネット経由での集客はうまくいっていますか？</li>
+    <li style="list-style-type: none;">顧客獲得のための広告や宣伝活動はどのように行っていますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">1.2 顧客構成とリピート状況</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">新規顧客と既存顧客（リピーターや紹介）の割合はどのくらいですか？</li>
+    <li style="list-style-type: none;">紹介・リピート顧客が生まれる仕組みや仕掛けはありますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">1.3 認知度と広報活動</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">地域での認知度を高めるためにどのような取り組みをしていますか？</li>
+    <li style="list-style-type: none;">地域特性に合わせた広報やサービス展開はしていますか？</li>
+  </ul>
+  
+  
+
+  <h2>2. 競争力・ブランディング</h2>
+  <div class="middle-title" onclick="toggle(this)">2.1 自社の強みと差別化</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">他社と比較して、自社の強みは何だと思いますか？</li>
+    <li style="list-style-type: none;">顧客に選ばれる理由はどこにあると感じていますか？</li>
+    <li style="list-style-type: none;">他の葬儀社と差別化するための具体的な取り組みはありますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">2.2 他社との比較とベンチマーク</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">他社と比べて、自社の業務効率やサービス品質についてどう感じていますか？</li>
+    
+  </ul>
+  
+  
+
+  <h2>3. 業務運営とAI活用</h2>
+  <div class="middle-title" onclick="toggle(this)">3.1 業務効率化と課題</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">普段の業務で面倒だと感じる作業や手間のかかる業務はありますか？</li>
+    <li style="list-style-type: none;">AI化したいと思っている業務はありますか？</li>
+    <li style="list-style-type: none;">業務マニュアルや標準的な業務プロセスは整備されていますか？</li>
+    <li style="list-style-type: none;">葬儀準備のチェックリストやタスク管理はどのように行っていますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">3.2 AI・DXの導入状況</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">業務でAIやインターネットを活用していますか？</li>
+    <li style="list-style-type: none;">予約や問い合わせ対応はAIを活用して効率化できていますか？</li>
+    <li style="list-style-type: none;">スタッフ間の情報共有はどのように行っていますか？</li>
+    
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">3.3 デジタルマーケティング</div>
+  <ul class="sub-questions">
+    
+    <li style="list-style-type: none;">オンライン上での顧客行動の分析はしていますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">3.4 データ管理と活用</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">過去の葬儀データはどのように管理・活用していますか？</li>
+    <li style="list-style-type: none;">顧客の声や市場トレンドの収集・分析はどのように行っていますか？</li>
+  </ul>
+
+  
+  <h2>4. 組織・人材</h2>
+<div class="middle-title" onclick="toggle(this)"><i class="fas fa-users"></i> 4. 組織・人材に関する質問</div>
+<div class="sub-questions">
+  <div class="middle-title" onclick="toggle(this)">5.1 スタッフ教育と対応力</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">スタッフへの研修や教育はどのように行っていますか？</li>
+    <li style="list-style-type: none;">スタッフは葬儀進行や接客に十分な自信を持っていると思いますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">5.2 モチベーションと職場環境</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">スタッフが働きやすい職場環境だと感じていますか？</li>
+    <li style="list-style-type: none;">モチベーション向上のために取り組んでいることはありますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">5.3 人材の定着と採用</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">離職率は高いですか？その原因は何だと思いますか？</li>
+    <li style="list-style-type: none;">定着率を高めるための施策や取り組みはありますか？</li>
+  </ul>
+</div>
+
+<h2>5. 経営方針と将来ビジョン</h2>
+<div class="middle-title" onclick="toggle(this)"><i class="fas fa-chart-line"></i> 5. 経営とビジョンに関する質問</div>
+<div class="sub-questions" style="display: none;">
+  <div class="middle-title" onclick="toggle(this)">5.1 経営目標と中長期計画</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">5年後、10年後にどのような会社になっていたいと考えていますか？</li>
+    <li style="list-style-type: none;">その目標に向けた計画はどのように立てていますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">5.2 収益構造と改善策</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">売上の中で伸び悩んでいる部分はどこですか？</li>
+    <li style="list-style-type: none;">利益率を改善するために取り組んでいることはありますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">5.3 新サービスや事業開発</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">最近導入した新サービスや、今後検討しているサービスはありますか？</li>
+  </ul>
+  <div class="middle-title" onclick="toggle(this)">5.4 持続可能性と成長戦略</div>
+  <ul class="sub-questions">
+    <li style="list-style-type: none;">葬儀市場の変化をふまえて、事業の長期的な持続可能性はどのように考えていますか？</li>
+  </ul>
+
+  </div>
+<script>
+    function toggle(element) {
+      const next = element.nextElementSibling;
+      if (next.style.display === 'block') {
+        next.style.display = 'none';
+      } else {
+        next.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>
